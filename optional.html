@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nested list manu</title>
+
+<style>
+nav > ul>li{
+display: inline;
+margin: 15px;
+}
+
+nav > ul{
+display: flex;
+
+}
+
+a{
+    text-decoration: none;
+}
+nav li .dropdwon{
+
+display: none;
+
+}
+nav li:hover >.dropdwon{
+display: block;
+position: absolute;
+padding-left: 3px;
+background-color: tomato;
+
+}
+</style>
+
+
+</head>
+<body>
+   <header>
+<nav>
+<ul>
+<li><a href="artical.html">Home</a></li>
+<li><a href="table.html"></a>Blogs</li>
+<li><a href="yable.html">Table</a>  
+    <ul class="dropdwon">
+        <li><a href="artical.html">Home</a></li>
+        <li><a href="table.html"></a>Blogs</li>
+        <li><a href="yable.html">Table</a> 
+            <ul class="dropdwon">
+                <li><a href="artical.html">Home</a></li>
+                <li><a href="table.html"></a>Blogs</li>
+                <li><a href="yable.html">Table</a>   
+                </li>
+                <li><a href="optional.html">About</a></li>
+                </ul>
+                
+            
+
+        </li>
+        <li><a href="optional.html">About</a></li>
+        </ul>
+        
+    
+
+</li>
+<li><a href="optional.html">About</a>
+    <ul class="dropdwon">
+        <li><a href="artical.html">Home</a></li>
+        <li><a href="table.html"></a>Blogs</li>
+        <li><a href="yable.html">Table</a>   
+        </li>
+        <li><a href="optional.html">About</a></li>
+        </ul>
+        
+
+</li>
+</ul>
+
+
+</nav>
+
+   </header>
+<main>
+
+
+</main>
+
+
+<footer>
+
+
+</footer>
+
+</body>
+</html>
+
+
